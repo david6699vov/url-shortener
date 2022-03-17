@@ -7,10 +7,6 @@ import (
 	"time"
 )
 
-func main() {
-
-}
-
 type StorageService struct {
 	redisClient *redis.Client
 }
